@@ -4,4 +4,3 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
         alert('Link clicked!');
     });
-});
