@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Fourier Transform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div>
+        <h1>Quantum Fourier Transform</h1>
+        <a class="return-button" href="index.html">Back to Home</a>
+    </div>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>The Quantum Fourier Transform (QFT) is a quantum analogue of the classical discrete Fourier transform. It is a crucial component in many quantum algorithms, including Shor's algorithm for factoring integers.</p>
+            <img src="images/qft_intro.png" alt="Quantum Fourier Transform Introduction" style="width:100%;max-width:600px;">
+        </section>
+        <section id="mathematical-foundation">
+            <h2>Mathematical Foundation</h2>
+            <p>The QFT transforms a quantum state into a superposition of states with amplitudes corresponding to the Fourier coefficients of the original state. It is defined by a unitary matrix that performs this transformation.</p>
+            <img src="images/qft_math.png" alt="Mathematical Foundation of QFT" style="width:100%;max-width:600px;">
+        </section>
+        <section id="circuit-implementation">
+            <h2>Circuit Implementation</h2>
+            <p>The QFT can be implemented using a quantum circuit composed of Hadamard gates and controlled phase shift gates. The circuit depth is logarithmic in the number of qubits.</p>
+            <img src="images/qft_circuit.png" alt="QFT Circuit Implementation" style="width:100%;max-width:600px;">
+        </section>
+        <section id="inverse-qft">
+            <h2>Inverse QFT</h2>
+            <p>The inverse Quantum Fourier Transform (IQFT) is the reverse operation of the QFT. It is used to transform the Fourier coefficients back into the original quantum state.</p>
+            <img src="images/iqft.png" alt="Inverse Quantum Fourier Transform" style="width:100%;max-width:600px;">
+        </section>
+        <section id="applications">
+            <h2>Applications</h2>
+            <p>The QFT is used in various quantum algorithms, including Shor's algorithm for factoring, quantum phase estimation, and solving systems of linear equations.</p>
+            <img src="images/qft_applications.png" alt="Applications of QFT" style="width:100%;max-width:600px;">
+        </section>
+        <section id="shors-algorithm">
+            <h2>Shor's Algorithm</h2>
+            <p>Shor's algorithm uses the QFT to find the period of a function, which is a key step in factoring large integers efficiently on a quantum computer.</p>
+            <img src="images/shors_algorithm.png" alt="Shor's Algorithm" style="width:100%;max-width:600px;">
+        </section>
+        <section id="quantum-phase-estimation">
+            <h2>Quantum Phase Estimation</h2>
+            <p>Quantum phase estimation uses the QFT to estimate the eigenvalues of a unitary operator. It is a fundamental subroutine in many quantum algorithms.</p>
+            <img src="images/quantum_phase_estimation.png" alt="Quantum Phase Estimation" style="width:100%;max-width:600px;">
+        </section>
+        <section id="quantum-algorithms">
+            <h2>Quantum Algorithms</h2>
+            <p>The QFT is a building block for various quantum algorithms, including algorithms for solving the hidden subgroup problem and quantum algorithms for linear systems of equations.</p>
+            <img src="images/quantum_algorithms.png" alt="Quantum Algorithms" style="width:100%;max-width:600px;">
+        </section>
+        <section id="efficiency">
+            <h2>Efficiency</h2>
+            <p>The QFT is exponentially faster than the classical Fourier transform for large inputs, making it a powerful tool in quantum computing.</p>
+            <img src="images/qft_efficiency.png" alt="Efficiency of QFT" style="width:100%;max-width:600px;">
+        </section>
+        <section id="future-directions">
+            <h2>Future Directions</h2>
+            <p>Future research in QFT focuses on optimizing its implementation, exploring new applications, and integrating it with other quantum algorithms and technologies.</p>
+            <img src="images/qft_future.png" alt="Future Directions of QFT" style="width:100%;max-width:600px;">
+        </section>
+        <a href="index.html">Back to Home</a>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Static Website</p>
+    </footer>
+</body>
+</html>
