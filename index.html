@@ -1,33 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meisam Ashraf</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Symmetry Is All You Need!</h1>
-        <img src="images/portrait_meisam.jpeg" style="width:150px;height:150px;border-radius:50%;">
-    </header>
-    <main>
-        <p>The following topics are of my main interest</p>
-        <ul>
-            <li><a href="src/complex_analysis.html">Complex analysis</a></li>
-            <li><a href="src/clifford_algebra.html">Clifford algebra</a></li>
-            <li><a href="src/lie_algebra.html">Lie algebra</a></li>
-            <li><a href="src/symmetry_group.html">Symmetry groups</a></li>
-            <li><a href="src/graph_neural_network.html">Graph neural networks</a></li>
-            <li><a href="src/diffusion_generative_models.html">Diffussion generative models</a></li>
-            <li><a href="src/quantum_error_correction.html">Quantum error correction</a></li>
-            <li><a href="src/quantum_clifford_circuites.html">Quantum clifford circuites</a></li>
-            <li><a href="src/quantum_fourier_transform.html">Quantum fourier transform</a></li>
-        </ul>
-    </main>
-    <footer>
-        <p>&copy; 2023 My Static Website</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
-</html>
+---
+layout: default
+title: Home
+---
+
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<div class="wrapper">
+
+  <!-- ===== HERO ===== -->
+
+  <h1>Meisam Ashraf</h1>
+
+  <div class="hero-subtitle">
+    Industrial AI Research Scientist <br>
+    Time-Series Learning · Generative Modeling · Trustworthy ML for Medical Devices
+  </div>
+
+  <p>
+    I design and deploy machine learning systems that transform noisy physiological signals 
+    into reliable clinical decisions. My work combines deep learning, probabilistic modeling, 
+    and deployment-aware research in regulated medical environments.
+  </p>
+
+  <div class="hero-buttons">
+    <a href="/assets/cv/Meisam_Ashraf_CV.pdf">Download CV</a>
+    <a href="/research.html">Research</a>
+    <a href="/projects.html">Projects</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+
+  <!-- ===== FOCUS ===== -->
+
+  <div class="section">
+    <h2>Focus Areas</h2>
+
+    <h3>Clinical Time-Series Modeling</h3>
+    <p>
+      Robust modeling of ECG, PPG, and invasive blood pressure signals under CPR artefacts, 
+      noise, and distribution shift using transformer-based architectures.
+    </p>
+
+    <h3>Generative & Probabilistic Modeling</h3>
+    <p>
+      Diffusion-inspired modeling, uncertainty quantification, and structured latent 
+      representations for scientific and biomedical data.
+    </p>
+
+    <h3>Reliable ML in High-Stakes Systems</h3>
+    <p>
+      Validation frameworks, signal annotation pipelines, cross-modal fusion, 
+      and deployment-oriented experimentation in regulated environments.
+    </p>
+  </div>
+
+  <!-- ===== SELECTED WORK ===== -->
+
+  <div class="section">
+    <h2>Selected Work</h2>
+
+    <h3>Real-Time Defibrillation Outcome Prediction</h3>
+    <p>
+      Led development of multimodal transformer models predicting shock success 
+      from ECG and physiological signals in real-time clinical workflows.
+    </p>
+
+    <h3>Clinical Signal Annotation Infrastructure</h3>
+    <p>
+      Designed structured annotation and validation pipelines supporting PMCF 
+      studies and reproducible signal analysis.
+    </p>
+
+    <h3>Generative Modeling for Structured Signals</h3>
+    <p>
+      Research on diffusion-based and symmetry-aware architectures 
+      for scientific data representation.
+    </p>
+  </div>
+
+</div>
+
+{% include footer.html %}
