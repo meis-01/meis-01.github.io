@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://perfect-craft-my-folio.base44.app/sitemap.xml
